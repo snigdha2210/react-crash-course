@@ -1,3 +1,17 @@
+# React Crash Course
+
+Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial. README information came from 'create-react-app' configuration. Simple first steps here, but necessary.
+
+| Files | Notes |
+|:----- | :---: |
+| [ReactDOM & JSX](/src/ReactDOM-%26-JSX)| First steps into React/ReactDOM importing & JSX |
+| [List `<ul>` with `<li>`](/src/React-ul-li) | Adding an unordered list into React|
+| [Multifile % components](/src/React-multifile-components) | Working with multiple files & `import` and `export default`|
+| [Parent & Child](/src/React-parent-child) | Tree structure implementation, with and main containing header, content and footer|
+|[TodoApp-phase1](/src/React-todoapp-phase1) | Creating an to-do-app, first phase: `<ul>` and `<input />` checkboxes | 
+
+## 'create-react-app' read-me:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
