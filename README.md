@@ -8,6 +8,7 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 | [List `<ul>` with `<li>`](/src/React-ul-li) | Adding an unordered list into React|
 | [Multifile % components](/src/React-multifile-components) | Working with multiple files & `import` and `export default`|
 | [Parent & Child](/src/React-parent-child) | Tree structure implementation, with and main containing header, content and footer|
+|[Style with Classes](/src/React-styling-with-classes) | Applied CSS to an component by `import` it; First glance at JSX's 'className' |
 |[TodoApp-phase1](/src/React-todoapp-phase1) | Creating an to-do-app, first phase: `<ul>` and `<input />` checkboxes | 
 
 ## 'create-react-app' read-me:
