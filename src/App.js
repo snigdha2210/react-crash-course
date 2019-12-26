@@ -15,7 +15,15 @@ import './App.css';
 // TodoApp Phase 2
 // import {TodoApp} from './React-todoapp-phase2/TodoApp';
 // Props in Peace
-import {ProductList} from './React-props-in-peace/ProductList';
+// import {ProductList} from './React-props-in-peace/ProductList';
+// Props styling
+// import {Comedy} from './React-props-styling/Comedy.js';
+// Mapping components
+// import {Comedy} from './React-mapping-components/Comedy';
+// TodoApp Phase 3
+// import {TodoApp} from './React-todoapp-phase3/TodoApp';
+// Class-based first step
+import {Test} from './React-classbased-component/ClassComponent.js'
 
 
 function App() {
@@ -26,7 +34,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* <MainApp /> */}
-        <ProductList />
+        <Test />
 
         {/* INTERVENTION END */}
         <a

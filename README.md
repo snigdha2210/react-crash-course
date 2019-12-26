@@ -12,7 +12,11 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 |[TodoApp-phase1](/src/React-todoapp-phase1) | Creating an to-do-app, first phase: `<ul>` and `<input />` checkboxes | 
 |[JSX dealing with Javascript](/src/React-JSX-to-Javascript) | Javascript variables put inside JSX statement & CSS inline on Javascript Object also inside JSX. | 
 |[TodoApp-phase2](/src/React-todoapp-phase2) | Added some CSS style to it, and React component were splitted: TodoApp & TodoItem. |
-|[Props in Peace](/src/Reac-props-in-peace) | First time handling 'props' passed from one component to another.| 
+|[Props in Peace](/src/React-props-in-peace) | First time handling 'props' passed from one component to another.| 
+|[Props styling](/src/React-props-styling) | Jokes passing from one component to another, with inline style w/ JS conditionals | 
+|[Mapping Components](/src/React-mapping-components) | Using JS `.map()` to organize info got from a JS Object data| 
+|[TodoApp-phase3](/src/React-todoapp-phase3) | Implemented a [database](/src/React-todoapp-phase3/tasksDatabase.js) of jokes to be organized with `.map()`, and accessed inside the components.|
+|[Class-based component](/src/React-classbased-component) | Turning the `function`s into `class ... extends React.Component {}`|
 
 ## 'create-react-app' read-me:
 
