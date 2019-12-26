@@ -11,6 +11,7 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 |[Style with Classes](/src/React-styling-with-classes) | Applied CSS to an component by `import` it; First glance at JSX's 'className' |
 |[TodoApp-phase1](/src/React-todoapp-phase1) | Creating an to-do-app, first phase: `<ul>` and `<input />` checkboxes | 
 |[JSX dealing with Javascript](/src/React-JSX-to-Javascript) | Javascript variables put inside JSX statement & CSS inline on Javascript Object also inside JSX. | 
+|[TodoApp-phase2](/src/React-todoapp-phase2) | Added some CSS style to it, and React component were splitted: TodoApp & TodoItem. |
 
 ## 'create-react-app' read-me:
 
