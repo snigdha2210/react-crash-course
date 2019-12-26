@@ -23,7 +23,11 @@ import './App.css';
 // TodoApp Phase 3
 // import {TodoApp} from './React-todoapp-phase3/TodoApp';
 // Class-based first step
-import {Test} from './React-classbased-component/ClassComponent.js'
+// import {Test} from './React-classbased-component/ClassComponent.js';
+// State 1st practice
+// import {StatePractice} from './React-state-practice/StatePractice.js';
+// State 2nd practice
+import {Practice2} from './React-state-practice/StatePractice2';
 
 
 function App() {
@@ -34,7 +38,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* <MainApp /> */}
-        <Test />
+        <Practice2 />
 
         {/* INTERVENTION END */}
         <a

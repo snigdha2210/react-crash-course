@@ -17,6 +17,7 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 |[Mapping Components](/src/React-mapping-components) | Using JS `.map()` to organize info got from a JS Object data| 
 |[TodoApp-phase3](/src/React-todoapp-phase3) | Implemented a [database](/src/React-todoapp-phase3/tasksDatabase.js) of jokes to be organized with `.map()`, and accessed inside the components.|
 |[Class-based component](/src/React-classbased-component) | Turning the `function`s into `class ... extends React.Component {}`|
+|[State Practices 1 & 2](/src/React-state-practice) | Dealing with `this.state` for the first time, inside `constructor()` method. Then, retrieving data from `this.state` inside `render()`. |
 
 ## 'create-react-app' read-me:
 
