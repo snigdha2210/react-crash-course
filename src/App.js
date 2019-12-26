@@ -13,7 +13,9 @@ import './App.css';
 // JSX to Javascript
 // import {ConvertToJS} from './React-JSX-to-Javascript/JSX-to-JS';
 // TodoApp Phase 2
-import {TodoApp} from './React-todoapp-phase2/TodoApp';
+// import {TodoApp} from './React-todoapp-phase2/TodoApp';
+// Props in Peace
+import {ProductList} from './React-props-in-peace/ProductList';
 
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* <MainApp /> */}
-        <TodoApp />
+        <ProductList />
 
         {/* INTERVENTION END */}
         <a
