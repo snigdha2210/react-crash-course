@@ -27,7 +27,9 @@ import './App.css';
 // State 1st practice
 // import {StatePractice} from './React-state-practice/StatePractice.js';
 // State 2nd practice
-import {Practice2} from './React-state-practice/StatePractice2';
+// import {Practice2} from './React-state-practice/StatePractice2';
+// TodoApp Phase 4
+import {TodoApp} from './React-todoapp-phase4/TodoApp';
 
 
 function App() {
@@ -37,8 +39,8 @@ function App() {
         <img src={logo} className="App-logo" alt="react spinning logo" />
         {/* INTERVENTION BEGIN */}
 
-        {/* <MainApp /> */}
-        <Practice2 />
+        {/* PUT HERE THE IMPORTED COMPONENT */}
+        <TodoApp />
 
         {/* INTERVENTION END */}
         <a
