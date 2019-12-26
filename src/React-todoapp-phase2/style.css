@@ -1,0 +1,39 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 50vw;
+}
+ 
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 5vh;
+}
+ 
+li {
+  text-decoration: none;
+  color: #000;
+  display: block;
+ 
+  -webkit-transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+  -moz-transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+  -o-transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+  -ms-transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+  transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+}
+ 
+li:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+  font-weight: bolder;
+}
