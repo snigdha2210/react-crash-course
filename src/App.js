@@ -32,8 +32,10 @@ import './App.css';
 // import {TodoApp} from './React-todoapp-phase4/TodoApp';
 // TodoApp Phase 5
 // import {TodoApp} from './React-todoapp-phase5-6/TodoApp';
-// Conditional rendering part1
-import {LoadingPage} from './React-conditional-rendering-part1/Main';
+// Conditional rendering part 1 & 2
+// import {LoadingPage} from './React-conditional-rendering-part1/Main';
+// Conditional rendering practice
+import {LogonVerify} from './React-conditional-rendering-practice/Practice';
 
 
 function App() {
@@ -44,7 +46,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <LoadingPage />
+        <LogonVerify />
 
         {/* INTERVENTION END */}
         <a

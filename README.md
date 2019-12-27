@@ -20,8 +20,9 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 |[State Practices 1 & 2](/src/React-state-practice) | Dealing with `this.state` for the first time, inside `constructor()` method. Then, retrieving data from `this.state` inside `render()`. |
 |[TodoApp-phase4](/src/React-todoapp-phase4) | Transform function into class, put database into state property. |
 |[TodoApp-phases 5 & 6](/src/React-todoapp-phase5-6) | Transform 'TodoItem.js' into a class too, and create a handler to deal with checking the checkboxes and changing state properties|
-|[Lifecycle Methods](/src/React-lifecycle-methods) | Intro to life cycle methods that specify React application
+|[Lifecycle Methods](/src/React-lifecycle-methods) | Intro to life cycle methods that specify React application |
 |[Conditional Rendering - Part 1 & 2](/src/React-conditional-rendering-part1)| Using conditional to render or not some kind of component - usefull to 'loading' waiting; Using `componentDidMount()`; Part 2 only adds conditional using `&&`|
+|[Conditional Rendering Practice](/src/React-conditional-rendering-practice) | Using conditional to render an logIn/logOut button, added extra logins count. |
 
 
 ## 'create-react-app' read-me:
