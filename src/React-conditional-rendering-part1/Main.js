@@ -25,7 +25,19 @@ export class LoadingPage extends React.Component {
   render() {
     return (
       <div>
-        {this.state.isLoading ? <h1>Loading...</h1> : <Conditional />}
+        {/* PART 1 Solution 
+              Want to SHOW 'loading...' then, display 'Conditional'
+        */}
+        {/* {this.state.isLoading ? <h1>Loading...</h1> : <Conditional />} */}
+        {/* PART 2 Solution 
+              Uses `&&` to achieve the same result. Common 
+        */}
+        {
+          this.state.isLoading && <h1>Loading...</h1>
+        }
+        {
+          !this.state.isLoading && <Conditional />
+        }
       </div>
     )
   }
