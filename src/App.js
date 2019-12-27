@@ -29,7 +29,9 @@ import './App.css';
 // State 2nd practice
 // import {Practice2} from './React-state-practice/StatePractice2';
 // TodoApp Phase 4
-import {TodoApp} from './React-todoapp-phase4/TodoApp';
+// import {TodoApp} from './React-todoapp-phase4/TodoApp';
+// TodoApp Phase 5
+import {TodoApp} from './React-todoapp-phase5-6/TodoApp';
 
 
 function App() {
