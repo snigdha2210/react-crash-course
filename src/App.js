@@ -31,7 +31,9 @@ import './App.css';
 // TodoApp Phase 4
 // import {TodoApp} from './React-todoapp-phase4/TodoApp';
 // TodoApp Phase 5
-import {TodoApp} from './React-todoapp-phase5-6/TodoApp';
+// import {TodoApp} from './React-todoapp-phase5-6/TodoApp';
+// Conditional rendering part1
+import {LoadingPage} from './React-conditional-rendering-part1/Main';
 
 
 function App() {
@@ -42,7 +44,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <TodoApp />
+        <LoadingPage />
 
         {/* INTERVENTION END */}
         <a
