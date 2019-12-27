@@ -24,6 +24,7 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 |[Conditional Rendering - Part 1 & 2](/src/React-conditional-rendering-part1)| Using conditional to render or not some kind of component - usefull to 'loading' waiting; Using `componentDidMount()`; Part 2 only adds conditional using `&&`|
 |[Conditional Rendering Practice](/src/React-conditional-rendering-practice) | Using conditional to render an logIn/logOut button, added extra logins count. |
 [TodoApp-phases 7](/src/React-todoapp-phase7) | Applied conditional to style differently the 'completed' tasks|
+|[Fetching Data from API](/src/React-fetching-data) | Using `fetch()` to get data from an external API (StarWarsAPI), with `componentDidMount()` to change state, and displya info gathered.| 
 
 
 ## 'create-react-app' read-me:

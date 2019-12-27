@@ -37,7 +37,9 @@ import './App.css';
 // Conditional rendering practice
 // import {LogonVerify} from './React-conditional-rendering-practice/Practice';
 // TodoApp Phase 7
-import {TodoApp} from './React-todoapp-phase7/TodoApp';
+// import {TodoApp} from './React-todoapp-phase7/TodoApp';
+// Fetching data from an API
+import {Fetching} from './React-fetching-data-API/FetchingData';
 
 function App() {
   return (
@@ -47,7 +49,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <TodoApp />
+        <Fetching />
 
         {/* INTERVENTION END */}
         <a
