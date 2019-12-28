@@ -41,7 +41,9 @@ import './App.css';
 // Fetching data from an API
 // import {Fetching} from './React-fetching-data-API/FetchingData';
 // Forms parts 1 & 2
-import {Forms} from './React-forms-part1-2/Forms.js';
+// import {Forms} from './React-forms-part1-2/Forms.js';
+// Forms practice
+import {TravelForm} from './React-forms-practice/FormsPractice';
 
 function App() {
   return (
@@ -51,7 +53,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <Forms />
+        <TravelForm />
 
         {/* INTERVENTION END */}
         <a

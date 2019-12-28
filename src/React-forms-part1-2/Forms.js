@@ -9,7 +9,13 @@ export class Forms extends React.Component {
       studentName: '',
       studentId: '',
       courseTitle: '',
-      courseCode: ''
+      courseCode: '',
+
+      // PART 2
+      didStudentPassed: false,
+      studentGender: '',
+      studentGrade: null
+      // 'Formik' is a lib of Forms in React
     }
     // bind methods
     this.handleChange = this.handleChange.bind(this);
@@ -20,11 +26,17 @@ export class Forms extends React.Component {
     event.preventDefault();
 
     // Saving the inputs into variables
-    const {name, value} = event.target;
+    const {name, value, type, checked} = event.target;
     
-    this.setState({
-      [name]: value
-    })
+    if (type === 'checkbox') {
+      this.setState({
+        didStudentPassed: checked
+      })
+    } else {
+      this.setState({
+        [name]: value
+      })
+    }
   }
 
   render() {
@@ -72,6 +84,70 @@ export class Forms extends React.Component {
           <h3>Course:</h3>
           <p>Title: {this.state.courseTitle}</p>
           <p>Code: {this.state.courseCode}</p>
+        </div>
+
+      {/* FORMS PART 2 
+        Other useful form elements:
+
+        <textarea /> element (in React is self-closing)
+        <input type="checkbox" />
+        <input type="radio" />
+        <select> and <option> elements
+      */}
+
+      <textarea value={"Some default value"}/>
+      <br />
+
+      <label>
+        <input 
+          type="checkbox"
+          name="didStudentPassed"
+          checked={this.state.didStudentPassed}
+          onChange={this.handleChange}
+          /> Did student passed?
+      </label>
+      <br />
+
+      <label>
+        <input 
+          type="radio" 
+          name="studentGender"
+          checked={this.state.gender === 'M'} 
+          value='M'
+          onChange={this.handleChange}
+        />Male
+
+        <input 
+          type="radio" 
+          name="studentGender"
+          checked={this.state.gender === 'F'} 
+          value='F'
+          onChange={this.handleChange}
+        />Female
+      </label>
+      <br />
+
+      <label>Student Grade:</label>
+      <select 
+        value='A'
+        name='studentGrade'
+        onChange={this.handleChange}
+        placeholder="Select the grade"
+      >
+        <option value='A' checked={this.state.studentGrade === 'A'}>A</option>
+        <option value='B' checked={this.state.studentGrade === 'B'}>B</option>
+        <option value='C' checked={this.state.studentGrade === 'C'}>C</option>
+        <option value='D' checked={this.state.studentGrade === 'D'}>D</option>
+        <option value='E' checked={this.state.studentGrade === 'E'}>E</option>
+        <option value='F' checked={this.state.studentGrade === 'F'}>F</option>
+      </select>
+
+      <div>
+          <h3>Student</h3>
+          <p>Gender: {this.state.studentGender}</p>
+          <p>Passed: {this.state.didStudentPassed ? 'Yes' : 'No'}</p>
+          <h3>Course:</h3>
+          <p>Student Grade: {this.state.studentGrade}</p>
         </div>
       </div>
     );

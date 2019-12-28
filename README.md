@@ -25,7 +25,8 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 |[Conditional Rendering Practice](/src/React-conditional-rendering-practice) | Using conditional to render an logIn/logOut button, added extra logins count. |
 [TodoApp-phases 7](/src/React-todoapp-phase7) | Applied conditional to style differently the 'completed' tasks|
 |[Fetching Data from API](/src/React-fetching-data) | Using `fetch()` to get data from an external API (StarWarsAPI), with `componentDidMount()` to change state, and displya info gathered.| 
-|[Forms in React - Parts 1 & 2](/src/React-forms-part1-2) | Intro to forms with inputs setting state; extra: component created to isolate the text inputs, works the same way.|
+|[Forms in React - Parts 1 & 2](/src/React-forms-part1-2) | Intro to forms with inputs setting state; extra: component created to isolate the text inputs, works the same way. Part2 complements showing extra four types of input: textareas, checkboxes, radio buttons and select & options|
+|[Forms practice (with nested elements in state)](/src/React-forms-practice) | Created a travel company forms, and show the entered data down to verify changing state.|
 
 
 ## 'create-react-app' read-me:
