@@ -43,7 +43,9 @@ import './App.css';
 // Forms parts 1 & 2
 // import {Forms} from './React-forms-part1-2/Forms.js';
 // Forms practice
-import {TravelForm} from './React-forms-practice/FormsPractice';
+// import {TravelForm} from './React-forms-practice/FormsPractice';
+// Meme generator project
+import {Main} from './React-meme-generator-project/index';
 
 function App() {
   return (
@@ -53,7 +55,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <TravelForm />
+        <Main />
 
         {/* INTERVENTION END */}
         <a
