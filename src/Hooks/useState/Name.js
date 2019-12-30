@@ -6,13 +6,13 @@ export default function Name() {
   const [name, setName] = useState("");
 
   return (
-    <header>
+    <div className="header-name">
       <input 
         value = {name}
         onChange = {event => setName(event.target.value)}
         onClick = {event => event.target.setSelectionRange(0 , event.target.value.length)}
         placeholder = "Untitled drawing"
       />
-    </header>
+    </div>
   );
 }
