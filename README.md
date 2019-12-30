@@ -1,6 +1,9 @@
 # React Crash Course
 
-Learning React with a bunch of activities from the [freeCodeCamp.org](https://youtu.be/DLX62G4lc44) tutorial. This [`readme`](#create-react-app-read-me) information came from 'create-react-app' configuration. Simple first steps here, but necessary.
+- Learning React with a bunch of activities from the [freeCodeCamp.org](https://youtu.be/DLX62G4lc44) tutorial. Named files folders 'React-'...; 
+- After finishing that, I started this [other](https://scrimba.com/g/greacthooks) course from Scrimba, focused on *React Hooks*. Named files folders 'Hooks-'...;
+
+This other [`readme`](#create-react-app-read-me) information came from 'create-react-app' configuration. Simple first steps here, but necessary.
 
 | Files | Notes |
 |:----- | :---- |

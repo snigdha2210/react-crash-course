@@ -50,7 +50,11 @@ import './App.css';
 // import {HooksPart2} from './React-hooks-useState-parts1&2/HooksUseStatePart2';
 // import {HooksPart1} from './React-hooks-useState-parts1&2/HooksUseStatePart1';
 // Hooks: useEffect() Parts 1 & 2:
-import {HooksUseEffectPart1} from './React-hooks-useEffect-parts1&2/Hooks-useEffect';
+// import {HooksUseEffectPart1} from './React-hooks-useEffect-parts1&2/Hooks-useEffect';
+
+// HOOKS ONE HOUR COURSE
+// Hooks useState()
+import {PaintApp} from './Hooks/index';
 
 function App() {
   return (
@@ -60,7 +64,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <HooksUseEffectPart1 />
+        <PaintApp />
 
         {/* INTERVENTION END */}
         <a
