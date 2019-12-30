@@ -1,6 +1,6 @@
 # React Crash Course
 
-Learning React with a bunch of activities from the [freeCodeCamp.org](https://youtu.be/DLX62G4lc44) tutorial. README information came from 'create-react-app' configuration. Simple first steps here, but necessary.
+Learning React with a bunch of activities from the [freeCodeCamp.org](https://youtu.be/DLX62G4lc44) tutorial. This [`readme`](#create-react-app-read-me) information came from 'create-react-app' configuration. Simple first steps here, but necessary.
 
 | Files | Notes |
 |:----- | :---- |
