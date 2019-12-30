@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 export default function WindowSize() {
 
   // State
-
   // gets window size from DOM elements
   const [ [windowWidth, windowHeight], setWindowSize ] =  useState(
     [window.innerWidth, window.innerHeight]
