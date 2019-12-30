@@ -45,7 +45,12 @@ import './App.css';
 // Forms practice
 // import {TravelForm} from './React-forms-practice/FormsPractice';
 // Meme generator project
-import {Main} from './React-meme-generator-project/index';
+// import {Main} from './React-meme-generator-project/index';
+// Hooks: useState() Part 1 & 2:
+// import {HooksPart2} from './React-hooks-useState-parts1&2/HooksUseStatePart2';
+// import {HooksPart1} from './React-hooks-useState-parts1&2/HooksUseStatePart1';
+// Hooks: useEffect() Parts 1 & 2:
+import {HooksUseEffectPart1} from './React-hooks-useEffect-parts1&2/Hooks-useEffect';
 
 function App() {
   return (
@@ -55,7 +60,7 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <Main />
+        <HooksUseEffectPart1 />
 
         {/* INTERVENTION END */}
         <a

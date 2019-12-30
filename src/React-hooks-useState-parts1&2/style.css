@@ -1,0 +1,16 @@
+button {
+  border: 1px solid lightgray;
+  background-color: #88f1ff;
+  padding: 10px;
+  border-radius: 4px; 
+  font-size: 3vh;  
+  margin: 3vh;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}

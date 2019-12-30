@@ -28,7 +28,8 @@ Learning React with a bunch of activities from the [freeCodeCamp.org]() tutorial
 |[Forms in React - Parts 1 & 2](/src/React-forms-part1-2) | Intro to forms with inputs setting state; extra: component created to isolate the text inputs, works the same way. Part2 complements showing extra four types of input: textareas, checkboxes, radio buttons and select & options|
 |[Forms practice (with nested elements in state)](/src/React-forms-practice) | Created a travel company forms, and show the entered data down to verify changing state.|
 |[Mini-project: Meme Generator](/src/React-meme-generator-project)| Small project of an webapp that fetch img of memes and adds TOP and BOTTOM elements on it, creating an unique Meme. Used: `fetch()`, `<Loading />` conditional rendering w/ CSS |
-
+|[Hooks: useState() parts 1 & 2](/src/React-hooks-useState-parts1&2) | Intro and usage of React Hoooks' `useState()` to set the state in Hooks way, and work with it.| 
+|[Hooks: useEffect() parts 1 & 2](/src/React-hooks-useEffect-parts1&2) | Intro: shows a little bit of the power of `useEffect()` to do the work of previous 'Lifecycle Methods'. | 
 
 ## 'create-react-app' read-me:
 
