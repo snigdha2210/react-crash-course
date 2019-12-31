@@ -1,12 +1,10 @@
 import React from 'react';
 
-export default function ColorPicker({ colors = [], activeColor, setActiveColor, getColors }) {
+export default function ColorPicker({ colors = [], activeColor, setActiveColor}) {
   // Ends this components if colors is empty
   if (!colors.length) return null
 
   return (
-    <div>
-
     <fieldset className="color-picker">
       {colors.map((color, i) => (
         <label key={i}>
@@ -21,8 +19,5 @@ export default function ColorPicker({ colors = [], activeColor, setActiveColor, 
         </label>
       ))}
     </fieldset>
-
-    <button onClick={getColors}>RandomizeColors</button>
-    </div>
   )
 }

@@ -40,7 +40,7 @@ export default class Canvas extends React.Component {
   startDrawing(e) {
     this.ctx.lineJoin = 'round'
     this.ctx.lineCap = 'round'
-    this.ctx.lineWidth = 10
+    this.ctx.lineWidth = 8
     this.ctx.strokeStyle = this.props.color
     this.ctx.beginPath();
     // actual coordinates
