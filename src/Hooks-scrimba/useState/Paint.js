@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import randomColor from '../randomColor';
 import Name from './Name';
 import ColorPicker from '../useEffect/ColorPicker';
-import WindowSize from '../useEffect/WindowSize';
+import useWindowSize from '../useEffect/WindowSize';
 import Canvas from '../Canvas';
 import RefreshButton from '../useCallback/RefreshButton';
 
@@ -29,24 +29,31 @@ export default function Paint() {
   // }
 
   // Transformed getColors into a callback
-
   const getColors = useCallback(() => {
-    var baseColor = randomColor().slice(1);
-
+    const baseColor = randomColor().slice(1);
     fetch(`https://www.thecolorapi.com/scheme?hex=${baseColor}&mode=monochrome`)
-      .then(response => response.json())
-      .then(response => {
-        setColors(response.colors.map(color => color.hex.value));
-        setActiveColor(response.colors[0].hex.value);
-      }
-    );
-
-  }, [/* no dependencies to it, so put empty */])
+      .then(res => res.json())
+      .then(res => {
+        setColors(res.colors.map(color => color.hex.value))
+        setActiveColor(res.colors[0].hex.value)
+      })
+  }, [])
 
   // Only runs ONCE, setting the starting five colors
   useEffect(getColors(), [])
 
-  const headerRef = useRef({ offsetHeight: 0 });
+  // Now, use the custom Hook: useWindowSize
+  const [visible, setVisible] = useState(false);
+
+  let timeoutId = useRef(); // Now a Ref
+
+  const [windowWidth, windowHeight] = useWindowSize(() => {
+    setVisible(true)
+    clearTimeout(timeoutId.current)
+    timeoutId.current = setTimeout(() => setVisible(false), 800)
+  })
+
+  // const headerRef = useRef({ offsetHeight: 0 });
 
   return (
     <div className="app">
@@ -56,25 +63,33 @@ export default function Paint() {
         <div className="app">
           <Name />
         </div>
+
         <div>
+
           <ColorPicker
             colors={colors}
             activeColor={activeColor}
             setActiveColor={setActiveColor}
-            // getColors={getColors}  // Used into RefreshButton now
-            />
-          <RefreshButton cb = {getColors}/>
+          // getColors={getColors}  // Used into RefreshButton now
+          />
+
+          <RefreshButton cb={getColors} />
+
         </div>
-        
       </header>
 
       {activeColor && (
         <Canvas
           color={activeColor}
-          height={window.innerHeight - headerRef.current.offsetHeight}
+          height={window.innerHeight /* - headerRef.current.offsetHeight */}
         />
       )}
-      <WindowSize />
+
+      {/* <WindowSize /> */}
+      <div className={`window-size ${visible ? '' : 'hidden'}`}>
+        {windowWidth} x {windowHeight}
+      </div>
+
     </div>
   );
 }

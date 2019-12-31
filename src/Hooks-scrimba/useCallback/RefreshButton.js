@@ -9,7 +9,7 @@ export default React.memo(({ cb }) => {
       className = "button-refresh-colors"
       onClick = {cb}
     >
-      &#8634;Refresh Colors 
+      Refresh Colors 
     </button>
   );
   
