@@ -38,7 +38,9 @@ export default function Paint() {
       .then(response => {
         setColors(response.colors.map(color => color.hex.value));
         setActiveColor(response.colors[0].hex.value);
-      })
+      }
+    );
+
   }, [/* no dependencies to it, so put empty */])
 
   // Only runs ONCE, setting the starting five colors
