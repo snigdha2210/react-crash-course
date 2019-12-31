@@ -54,7 +54,7 @@ import './App.css';
 
 // HOOKS ONE HOUR COURSE
 // Hooks useState()
-import {PaintApp} from './Hooks/index';
+// import {PaintApp} from './Hooks/index';
 
 function App() {
   return (
@@ -64,7 +64,8 @@ function App() {
         {/* INTERVENTION BEGIN */}
 
         {/* PUT HERE THE IMPORTED COMPONENT */}
-        <PaintApp />
+        {/* <PaintApp /> */}
+        <p>This might work. Welcome!</p>
 
         {/* INTERVENTION END */}
         <a
